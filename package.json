@@ -1,0 +1,30 @@
+{
+  "name": "generator-baseweb",
+  "version": "0.0.0",
+  "description": "Yeoman generator",
+  "license": "MIT",
+  "main": "app/index.js",
+  "repository": "juanpablocs21/generator-baseweb",
+  "author": {
+    "name": "Juan pablo",
+    "email": "juanpablocs21@gmail.com",
+    "url": "https://github.com/juanpablocs21"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "app"
+  ],
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "dependencies": {
+    "yeoman-generator": "^0.19.0",
+    "chalk": "^1.0.0",
+    "yosay": "^1.0.2"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  }
+}
